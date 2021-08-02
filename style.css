@@ -179,15 +179,18 @@ padding: 0 30px;
     height: 40%;
     display: block;
     position: relative;
-    left: 15px;
+    left: 1%;
   }
   .inputs{
     width: 100%;
     margin-bottom: 10px;
   }
   .chnbtn {
-    width: 30%;
+    width: 27%;
     height: 3rem;
+  }
+  .input-chnbtn{
+width: 27%;
   }
 
   input::placeholder{
@@ -201,7 +204,7 @@ padding: 0 30px;
   height: 40%;
   width: 92%;
   top: 90%;
- left: 5%;
+ left: 1%;
  margin-top: 2%;
   }
   .inner_table{
