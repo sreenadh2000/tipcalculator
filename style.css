@@ -1,0 +1,219 @@
+.body, button:hover{
+  background-color: hsl(172, 67%, 45%);
+  font-family: 'Space Mono', monospace;
+}
+/* colered values........ */
+.inputs, .input-chnbtn, .chnbtn {
+  background-color: hsl(189, 41%, 97%);
+  font-size: 24px;
+}
+    .data, .hilight, .second_column, .chnbtn  {
+       background-color: hsl(183, 100%, 15%);
+       color: #fff;
+     }
+input:: placeholder, button:hover, .large-button  {
+  color: hsl(183, 100%, 15%);
+}
+/* main content............. */
+
+.middle-content {
+  width: 60%;
+  height: 72%;
+  background-color: #fff;
+  position: absolute;
+  margin: 2% 12%;
+  border-radius: 25px;
+}
+.table_main{
+  margin: 25px 20px;
+}
+p{
+  margin-bottom: 10px;
+}
+img{
+  margin-top: 1%;
+ margin-left: 40%;
+width: 15%;
+
+}
+.error{
+  color: red;
+  position: absolute;
+  margin-left:  220px;
+  margin-top: 15px;
+}
+/* first_column.... */
+.first_column{
+  width: 50%;
+  padding-right: 30px;
+}
+.input_comb{
+  position: relative;
+}
+i{
+  position: absolute;
+  padding: 17px;
+}
+
+.inputs{
+  width: 95%;
+  height: 3rem;
+  margin-bottom: 40px;
+  border: 0;
+  font-weight: bold;
+ text-align: right;
+}
+.chnbtn {
+  width: 31%;
+  height: 3rem;
+  border-radius: 5px;
+}
+.input-chnbtn{
+  font-weight: bold;
+  width: 31%;
+  height: 3rem;
+  border-radius: 5px;
+  border: 0;
+  text-align: right;
+}
+input:: placeholder{
+  opacity: 0.7;
+}
+.tip-below_button{
+  padding-top: 9px;
+  margin-bottom: 50px;
+}
+button:hover{
+  border: 0;
+}
+input:focus{
+  outline-color: hsl(172, 67%, 45%);
+}
+/* second_column...... */
+
+.second_column{
+  text-align: center;
+  padding: 3%;
+  border-radius: 12px;
+position: relative;
+}
+.inner_table{
+margin-bottom: 180px;
+padding: 0 30px;
+}
+.second-table-data{
+  padding-bottom: 7%;
+}
+.data{
+  opacity: 0.4;
+  margin: 0;
+}
+.hilight{
+  opacity: 1;
+  margin-bottom: 0;
+}
+.h2-value{
+  opacity: 0.7;
+  margin-left: 120px;
+  margin-bottom: 23px;
+  font-weight: bold;
+  color: hsl(172, 67%, 45%);
+  font-size: 2.5rem;
+}
+.large-button{
+  width: 97%;
+  height: 25%;
+  border-radius: 8px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* @media quqries......................................... */
+
+@media (max-width: 1178px ) {
+  .h2-value{
+    margin-left: 80px;
+  }
+  }
+
+@media (max-width: 1290px ){
+  input::placeholder{
+    font-size: 20px;
+    }
+}
+
+@media (min-width: 824px) and (max-width: 1100px){
+  /* selecting tip....... */
+  .chnbtn{
+    width: 27%;
+  }
+  .input-chnbtn{
+    width: 27%;
+  }
+  input::placeholder{
+    font-size: 12px;
+    }
+    .h2-value{
+      margin-left: 10px;
+    }
+}
+/* main media for mobile...... */
+
+@media (max-width: 824px){
+  .middle-content{
+   height: 100%;
+    width: 100%;
+    top: 70px;
+   margin: 0;
+   left: 0;
+   border-radius: 0;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+  }
+  img{
+    width: 19%;
+  }
+  /* first_column.... */
+
+  .first_column{
+    width:100%;
+    height: 40%;
+    position: absolute;
+    left: 25px;
+  }
+  .inputs{
+    width: 97%;
+    margin-bottom: 10px;
+  }
+  input::placeholder{
+    font-size: 24px;
+    }
+  /* second_column..... */
+
+  .second_column{
+  position: absolute;
+  height: 35%;
+  width: 92%;
+  top: 65%;
+  left: 15px;
+
+  }
+  .inner_table{
+  margin: 20px 0 24px 8px;
+  }
+  .h2-value{
+    font-size: 2.2rem;
+    margin-left: 130px;
+  }
+  .large-button{
+    width: 100%;
+    height: 18%;
+    font-size: 20px;
+  }
+}
+/* adding javascript ........... */
+.before{
+  color: red;
+  position: absolute;
+  left: auto;
+}

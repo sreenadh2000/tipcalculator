@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sreenadh project1</title>
+    <!-- css style -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="icon" href="images/favicon.png">
+<!-- font families -->
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/5af7815136.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body class="body">
+
+<div class="container">
+  <img src="images/logo.svg" alt="logo">
+<div class="middle-content">
+<table class="table_main">
+  <tr>
+
+    <div class="row">
+      <div class="col ">
+    <!-- first_column..... -->
+    <td class="first_column">
+      <p class="error error1"></p>
+      <p class="input_comb">Bill</p>
+
+    <i class="fas fa-dollar-sign"></i>
+      <input class="inputs" type="text" id="bill_value">
+      <p>Select Tip %</p>
+
+           <button class="chnbtn button1" value="0.05">5%</button>
+          <button class="chnbtn button2" value="0.10">10%</button>
+         <button class="chnbtn button3" value="0.15">15%</button>
+     <div class="tip-below_button">
+        <button class="chnbtn button4" value="0.25">25%</button>
+        <button class="chnbtn button5" value="0.50">50%</button>
+        <input class="input-chnbtn" type="text" placeholder="custom" id="tip_value">
+    </div>
+    <p class="error error2"></p>
+      <p class="input_comb">Number of people</p>
+      <i class="fas fa-user"></i>
+      <input class="inputs numbeofpeople" type="text" id="persons_count">
+      </td>
+      </div>
+      <!-- second section ......-->
+      <div class="col">
+      <td class="second_column">
+        <table class="inner_table">
+            <tr>
+              <td class="second-table-data">
+                <p class="hilight">Tip amount</p>
+                <p class="data">/person</p></td>
+                <td><h2 class="h2-value h2-first">$0.00</h2></td>
+            </tr>
+            <tr>
+              <td>
+                <p class="hilight">Total</p>
+                <p class="data">/person</p></td>
+                <td><h2 class="h2-value h2-second">$0.00</h2></td>
+            </tr>
+        </table>
+        <button class="large-button" >RESET</button>
+      </td>
+  </tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<!-- javascript..... -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
