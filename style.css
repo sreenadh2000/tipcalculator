@@ -169,6 +169,9 @@ padding: 0 30px;
    border-top-left-radius: 20px;
    border-top-right-radius: 20px;
   }
+  .table_main{
+    margin: 2% 2%;
+  }
   img{
     width: 19%;
   }
