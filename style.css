@@ -170,7 +170,7 @@ padding: 0 30px;
    border-top-right-radius: 20px;
   }
   .table_main{
-    margin: 2% 2%;
+    margin: 1% 1%;
   }
   img{
     width: 19%;
@@ -189,11 +189,11 @@ padding: 0 30px;
     margin-bottom: 10px;
   }
   .chnbtn {
-    width: 27%;
+    width: 28%;
     height: 3rem;
   }
   .input-chnbtn{
-width: 27%;
+width: 28%;
   }
 
   input::placeholder{
