@@ -182,7 +182,7 @@ padding: 0 30px;
     left: 25px;
   }
   .inputs{
-    width: 97%;
+    width: 99%;
     margin-bottom: 10px;
   }
   input::placeholder{
@@ -194,10 +194,10 @@ padding: 0 30px;
   position: relative;
   display: inline-block;
   height: 40%;
-  width: 92%;
+  width: 97%;
   top: 90%;
- left: 5%;
- margin-top: 2%;
+ left: 3%;
+ margin-top: 3%;
   }
   .inner_table{
   margin: 20px 0 10px 8px;
